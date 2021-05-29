@@ -1,0 +1,12 @@
+<!--pages/personal/personal.wxml-->
+
+<!-- <view class="container"> -->
+  <l-avatar open-data="{{['userAvatarUrl','userNickName']}}" />
+  <l-list title="学号: {{userId}}" icon="user" l-class-icon="iconfont" />
+  <l-list title="专业: {{major}}" icon="edit" l-class-icon="iconfont" />
+  <l-list title="修改密码" bindtap="toRepwd" icon="password" l-class-icon="iconfont" />
+  <l-list title="兴趣标签" icon="notification" tag-content="标签" tagShape="circle" tag-position="right"/>
+  <l-list title="收藏中心" bindtap="toCollect" icon="notification" />
+  <l-list title="设置" icon="setting" />
+<!-- </view> -->
+  <text>如有疑问，请联系管理员：15173499420</text>

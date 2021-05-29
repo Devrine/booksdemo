@@ -4,6 +4,5 @@
     "l-button": "/miniprogram_npm/lin-ui/button/index",
     "l-avatar": "/miniprogram_npm/lin-ui/avatar/index"
   },
-  "navigationBarBackgroundColor": "#b3d4db",
-  "navigationBarTitleText": "登录"
+  "navigationBarTitleText": "修改密码"
 }

@@ -1,0 +1,32 @@
+<!--pages/search/search.wxml-->
+
+<l-search-bar placeholder="搜索">
+  <view name="before" />
+</l-search-bar>
+<!-- <view>
+  <l-button shape="semicircle" size="25" plain="{{true}}">半圆角</l-button>
+</view> -->
+<view class="history">
+  <text class="title">浏览历史</text>
+  <text class="clear">清除</text>
+  <view>
+    <view class="hist">考研</view>
+    <view class="hist">java</view>
+    <view class="hist">密码学</view>
+  </view>
+</view>
+<view class="card">
+  <text class="title">热词推荐</text>
+  <view>
+    <view class="hotWords">考研</view>
+    <view class="hotWords">C#编程</view>
+    <view class="hotWords">宠物</view>
+    <view class="hotWords">经济学</view>
+    <view class="hotWords">哲学</view>
+    <view class="hotWords">摄影</view>
+    <view class="hotWords">内卷</view>
+    <view class="hotWords">DDL</view>
+    <view class="hotWords">外研社</view>
+    <view class="hotWords">工程</view>
+  </view>
+</view>

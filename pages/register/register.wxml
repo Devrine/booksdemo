@@ -1,0 +1,14 @@
+<!--pages/register/register.wxml-->
+
+<view class="container">
+  <!-- <l-avatar open-data="{{['userAvatarUrl']}}" /> -->
+  <view class="box">
+    <image src="/images/logo.png"></image>
+    <text class="title">我的圕</text>
+  </view>
+  <l-input label="用户名" id="username" type="number"  placeholder="请输入用户姓名" clear="{{true}}" rules="{{usernameRule}}"/>
+  <l-input label="学号" id="userId" type="number"  placeholder="请输入学号" clear="{{true}}" rules="{{userIdRule}}"/>
+  <l-input label="密码" id="password" type="password" placeholder="请输入密码" clear="{{true}}" rules="{{pwdRule}}"/>
+  <l-input label="专业" id="major" type="string"  placeholder="请输入专业" clear="{{true}}" rules="{{majorRule}}"/>
+  <l-button type="default" bindtap="redirectBtn">注册</l-button>
+</view>

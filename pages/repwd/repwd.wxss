@@ -1,0 +1,7 @@
+/* pages/repwd/repwd.wxss */
+l-avatar{
+  margin-bottom: 30px;
+}
+l-button{
+  margin-top: 30px;
+}

@@ -1,0 +1,5 @@
+<!--pages/collection/collection.wxml-->
+
+<block>
+  <book-list />
+</block>

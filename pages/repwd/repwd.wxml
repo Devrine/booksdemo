@@ -1,0 +1,9 @@
+<!--pages/repwd/repwd.wxml-->
+
+<view class="container">
+  <l-avatar open-data="{{['userAvatarUrl']}}" />
+  <l-input label="学号" id="userId" type="number"  placeholder="请输入学号" clear="{{true}}" rules="{{userIdRule}}"/>
+  <l-input label="原密码" id="password" type="password" placeholder="请输入原密码" clear="{{true}}" rules="{{pwdRule}}"/>
+  <l-input label="新密码" id="newPassword" type="password" placeholder="请输入新密码" clear="{{true}}" rules="{{pwdRule}}"/>
+  <l-button type="default" bindtap="myRepwd">提交</l-button>
+</view>

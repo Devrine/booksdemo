@@ -1,2 +1,11 @@
 <!--pages/logs/logs.wxml-->
-<text>pages/logs/logs.wxml</text>
+
+<view class="container">
+  <l-avatar open-data="{{['userAvatarUrl']}}" />
+  <l-input label="学号" id="userId" type="number"  placeholder="请输入学号" clear="{{true}}" rules="{{userIdRule}}"/>
+  <l-input label="密码" id="password" type="password" placeholder="请输入密码" clear="{{true}}" rules="{{pwdRule}}"/>
+  <l-button type="default" bindtap="myLog">登录</l-button>
+  <view class="register" hover-class="hover">
+    <text class="regis" bindtap="redirectToRegister">未注册，前往注册</text>
+  </view>
+</view>

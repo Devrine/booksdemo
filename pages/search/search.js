@@ -1,50 +1,18 @@
-// pages/logs/logs.js
+// pages/search/search.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userIdRule:[{
-      required: true
-    },{
-      type: 'number',
-      len: 10,
-      message: "学号需为10位数字"
-    }],
-    pwdRule:[{
-      required: true
-    },{
-      type: 'number',
-      min: 8,
-      max: 15,
-      message: "密码长度在8-15之间"
-    }]
+
   },
 
-  //登录成功后跳转到主界面
-  myLog:function(){
-    wx.redirectTo({
-      url: '../index/index',
-      success: function(res){},
-      fail: function() {},
-      complete: function() {}
-    })
- },
-  // 跳转到注册页面
-  redirectToRegister:function(){
-    wx.redirectTo({
-      url: '../register/register',
-      success: function(res){},
-      fail: function() {},
-      complete: function() {}
-    })
- },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+
   },
 
   /**
