@@ -1,0 +1,6 @@
+/* components/book-list/book-list.wxss */
+view{
+  color: #405f80;
+  margin: 5px 0;
+  font-size: 15px;
+}

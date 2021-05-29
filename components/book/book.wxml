@@ -1,0 +1,21 @@
+<!--components/book/book.wxml-->
+<!-- <text>components/book/book.wxml</text> -->
+
+<!-- <view class="container"> -->
+  <l-card type="cover" 
+            image="{{img}}"
+            image-mode="aspectFit"
+            >
+      <view id="title">{{bookName}}</view>
+      <view id="author" class="bookinfo">作者：{{author}}</view>
+      <view id="ISBN" class="bookinfo">ISBN：{{ISBN}}</view>
+      <view id="publisher" class="bookinfo">出版社：{{publisher}}</view>
+      <view id="date" class="bookinfo">出版年：{{date}}</view>
+      <view id="code" class="bookinfo">分类号：{{code}}</view>
+      <view id="price" class="bookinfo">价格：{{price}}</view>
+      <view id="storage" class="bookinfo">库存量：{{storage}}</view>
+      <view id="address" class="bookinfo">存储位置：{{address}}</view>
+      <view id="tag" class="bookinfo">标签：{{tag}}</view>
+      <view id="content" class="bookinfo">摘要：{{content}}</view>
+  </l-card>
+<!-- </view> -->
